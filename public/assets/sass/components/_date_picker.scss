@@ -1,0 +1,87 @@
+.datepicker {
+  // top: 20rem !important;
+  // right: 10rem !important;
+  padding: 0.75rem 1rem 0.75rem 2rem !important;
+  min-width: 22vw;
+  max-width: 22.4vw;
+  font-size: $default-font-size;
+  font-weight: 100 !important;
+
+  &-switch {
+    text-align: center;
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+
+    th {
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    td {
+      cursor: pointer;
+      font-weight: 300;
+    }
+
+    tfoot {
+      text-align: center;
+      cursor: pointer;
+      padding: 2rem auto;
+    }
+
+    .day {
+      &:hover {
+        background: $color-primary--light !important;
+      }
+    }
+
+    .selected {
+      background: $color-primary !important;
+      border-radius: 0 !important;
+      color: $color-white;
+
+      &:hover {
+        background: $color-primary !important;
+      }
+    }
+    .range {
+      background: #f5f5f5 !important;
+    }
+  }
+}
+
+.daterangepicker {
+  font-family: 'Nunito Sans', 'Roboto', sans-serif;
+  font-size: 1.6rem !important;
+
+  .drp-selected {
+    display: none;
+  }
+
+  .btn-primary {
+    background-color: $color-primary;
+    border: none;
+  }
+
+  td.active,
+  .daterangepicker td.active:hover,
+  td.active,
+  .daterangepicker td.active {
+    background-color: $color-primary !important;
+  }
+}
+
+.datepicker table tr td span {
+  display: block;
+  width: 23%;
+  height: 54px;
+  line-height: 54px;
+  float: left;
+  margin: 1%;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}

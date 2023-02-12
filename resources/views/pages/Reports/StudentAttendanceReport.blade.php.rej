@@ -1,0 +1,10 @@
+diff a/BACKEND/resources/views/pages/Reports/StudentAttendanceReport.blade.php b/BACKEND/resources/views/pages/Reports/StudentAttendanceReport.blade.php	(rejected hunks)
+@@ -219,7 +219,7 @@
+                         let selectSubject = $('#selectStudent');
+                         selectSubject.empty();
+                         selectSubject.append(`
+-                        <option class="dropdown-item" value="">Select Section</option>
++                        <option class="dropdown-item" value="">Select Student</option>
+                     `);
+                         data.forEach(function (item){
+                             selectSubject.append(`

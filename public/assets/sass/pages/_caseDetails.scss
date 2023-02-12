@@ -1,0 +1,18 @@
+.section {
+  &-caseDetails {
+    max-height: calc(100vh - 8rem) !important;
+    overflow: auto;
+    padding: 3rem;
+
+    .table {
+      tr {
+        border-bottom: transparent;
+      }
+      td {
+        text-align: left;
+
+        width: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+registration_number,roll,first_name,last_name,date_of_birth,gender,mobile_no,email,admission_date,blood_group,height,weight,birth_registration_no,guardian_first_name,guardian_last_name,guardian_relation,guardian_nid,guardian_phone,guardian_email,permanent_address,previous_school,note,religion
+400,1,AISSA,HIBA,1/12/2010,1,1725632569,student1@demo.com,6/14/2020,3,5.6,60,544656,OBLEID  ,MOHAMMED,1,2301256489,1756324569,guardian1@mail.com,BD ZAYD IBN SULTANE LOT BAYT BAHIA N?29,school name,DEMO NOTE,2
+501,2,MAHMOUD,HIBA,1/13/2010,2,1725632570,student2@demo.com,6/14/2020,2,5.8,58,544657,OUBERRI,MOHAMMED,1,2301256490,1756324570,guardian2@mail.com,RTE TAZA HAY LOUAHDA N?17,school name,DEMO NOTE,1
+502,3,HIBA,WALID,1/14/2010,1,1725632571,student3@demo.com,6/14/2020,1,5.7,57,544658,AKHMOUL,EL HASSANE,1,2301256491,1756324571,guardian3@mail.com,BD ZAYD IBN SULTANE LOT BAYT BAHIA N?30,school name,DEMO NOTE,3
+503,4,CHAYMAE,WALID ,1/15/2010,2,1725632572,student4@demo.com,6/14/2020,2,5.4,59,544659,MIRHOUM,SOUAD,2,2301256492,1756324572,guardian4@mail.com,HAY JAWHARA RUE C NR 39 OUJDA,school name,DEMO NOTE,1
+504,5,WALID,MAHMOUD,1/16/2010,1,1725632573,student5@demo.com,6/14/2020,3,5.5,55,544660,KARMOUN,ABDELKRIM,1,2301256493,1756324573,guardian5@mail.com,RTE TAZA HAY LOUAHDA N?18,school name,DEMO NOTE,3

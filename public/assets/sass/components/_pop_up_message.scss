@@ -1,0 +1,21 @@
+.pop-up-message {
+  &--box {
+    position: relative;
+
+    .card {
+      position: absolute;
+      z-index: 10 !important;
+      top: -7rem;
+      right: 5rem;
+      border-radius: 5px !important;
+      padding: 0.5rem 0.75rem !important;
+
+      background-color: $color-primary--light !important;
+      animation: dissappear 3s forwards;
+
+      &-body {
+        color: $color-black !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.section {
+  &-uploadContent {
+    .card {
+      padding: 1.5rem 2.5rem;
+    }
+
+    .table {
+      max-height: 4.5rem !important;
+    }
+
+    textarea {
+      resize: none !important;
+      height: 8rem !important;
+      max-height: 8rem;
+    }
+
+    .form-check {
+      margin-left: 1rem;
+
+      &-label {
+        color: $color-text;
+        margin-bottom: 0.6rem;
+      }
+    }
+
+    &--list {
+      .modal {
+        &-dialog {
+          display: flex;
+          justify-content: center;
+        }
+        &-content {
+          width: 60% !important;
+        }
+      }
+    }
+  }
+}
+
+.uploadHomework {
+  .btn-browse {
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: 25.5rem;
+    left: 17.5rem;
+
+    &:hover {
+      transform: translateY(0);
+    }
+  }
+}
+
+.uploadSyllabus,
+.otherDownloads {
+  .btn-browse {
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: 9.25rem;
+    left: 14.5rem;
+
+    &:hover {
+      transform: translateY(0);
+    }
+  }
+}

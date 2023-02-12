@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+  @include respond(big-desktop) {
+    font-size: 75%; //1rem = 12, 12/16
+  }
+
+  @include respond(tab-land) {
+    // width < 1200?
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+  }
+
+  @include respond(tab-port) {
+    // width < 900?
+    font-size: 50%; //1 rem = 8px, 8/16 = 50%
+  }
+
+  @include respond(phone) {
+    font-size: 46%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $color-grey;
+
+  &:hover {
+    cursor: pointer;
+    color: $color-grey;
+  }
+}
+
+.bg-green {
+  background-color: $color-green !important;
+}
+
+.bg-red {
+  background-color: $color-red !important;
+}
+
+.form-control {
+  border: 0;
+  font-size: $default-font-size;
+  border-bottom: 1px solid $color-grey;
+  border-radius: 0;
+  margin-bottom: 1.5rem;
+
+  &::placeholder {
+    font-size: 1.4rem;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.content-link {
+  font-weight: 600;
+  color: $color-text;
+  text-decoration: underline;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+.form-select-sm {
+  font-size: $default-font-size;
+}
+
+// input:read-only {
+//   background-color: #fff !important;
+// }

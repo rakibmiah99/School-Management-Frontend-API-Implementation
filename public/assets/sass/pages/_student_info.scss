@@ -1,0 +1,23 @@
+.section-addStudent--details {
+  .card {
+    .form-control {
+      width: 18rem;
+      height: max-content;
+      margin: 0 1rem;
+    }
+  }
+}
+
+.section-importStudent--details {
+  .btn-browse {
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: 6.25rem;
+    right: 26.25rem;
+
+    &:hover {
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.section {
+  &-examSchedule--create {
+    width: max-content;
+
+    .input-daterange {
+      width: 12rem;
+    }
+
+    table td input {
+      width: min-content !important;
+    }
+
+    input {
+      max-width: 13rem !important;
+    }
+
+    #subjectDropdown,
+    #teacherDropdown,
+    #roomDropdown {
+      max-width: 15rem !important;
+      max-height: 40rem;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+  }
+}

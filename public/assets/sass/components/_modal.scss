@@ -1,0 +1,33 @@
+#deleteModal {
+  padding: 1.4rem 0;
+
+  .modal {
+    &-content {
+      width: 100% !important;
+    }
+
+    &-body {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: max-content;
+
+      img {
+        height: 10rem;
+        width: 10rem;
+        margin-left: 1.5rem;
+        margin-bottom: 4rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
+
+    &-footer {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+  }
+}

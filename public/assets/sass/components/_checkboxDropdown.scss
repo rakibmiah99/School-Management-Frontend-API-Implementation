@@ -1,0 +1,10 @@
+.checkboxDropdown {
+  .dropdown-menu {
+    .dropdown-item {
+      span {
+        font-size: $default-font-size !important;
+        margin-left: 0.3rem;
+      }
+    }
+  }
+}

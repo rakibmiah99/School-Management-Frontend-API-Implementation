@@ -1,0 +1,14 @@
+.section-addAdmin,
+.section-addStudent,
+.section-addTeacher {
+  &--content {
+    .dataTables_filter input {
+      width: 15rem !important;
+    }
+    .modal {
+      .form-control {
+        padding: 0;
+      }
+    }
+  }
+}

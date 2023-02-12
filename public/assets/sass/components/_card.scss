@@ -1,0 +1,53 @@
+.section-criteria {
+  input {
+    max-width: 18rem !important;
+  }
+
+  .dropdown-menu {
+    max-width: 20rem !important;
+    max-height: 40rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .card {
+    &-body {
+      display: flex;
+
+      .btn-dropdown {
+        width: 100% !important;
+
+        &:active {
+          color: $color-grey !important;
+        }
+      }
+      .dropdown {
+        &-menu {
+          input {
+            font-size: 1.4rem;
+            padding: 0 0.5rem;
+            margin: 0 0.75rem 0.75rem 0.75rem;
+
+            &::placeholder {
+              font-size: 1.2rem;
+            }
+
+            &:focus,
+            &:focus-visible {
+              border: red !important;
+            }
+          }
+        }
+        &-item {
+          font-size: 1.4rem;
+          padding-left: 1.5rem;
+          color: $color-grey--dark;
+
+          &:active {
+            background-color: $color-primary--light;
+          }
+        }
+      }
+    }
+  }
+}

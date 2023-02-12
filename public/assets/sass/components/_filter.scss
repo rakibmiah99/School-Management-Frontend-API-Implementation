@@ -1,0 +1,41 @@
+// select {
+//   // margin: 0 auto;
+//   color: $color-text !important;
+//   width: 18rem !important;
+//   // padding: 15px;
+//   // height: 25px;
+//   cursor: pointer;
+//   // background: url(http://sharpik.com/wip/cuteselect/arrow.png) 295px 12px
+//   //   no-repeat white;
+// }
+
+// select:hover {
+//   background-color: transparent;
+//   color: white;
+//   // padding: 15px 5px 15px 25px;
+// }
+
+// select option {
+//   background-color: $color-white !important;
+//   color: gray;
+//   width: 18rem !important;
+//   // padding: 10px 15px;
+//   // height: 20px;
+//   cursor: pointer;
+//   font-size: $default-font-size !important;
+// }
+
+// select option:hover {
+//   // padding-left: 25px;
+//   width: 18rem !important;
+//   color: #ec6f66;
+// }
+
+.selectize-input {
+  border: transparent !important;
+  width: 18rem !important;
+}
+
+.selectize-dropdown-content .option {
+  cursor: pointer !important;
+}

@@ -1,0 +1,27 @@
+@import 'abstract/variables';
+@import 'abstract/mixins';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typogrophy';
+@import 'base/utillities';
+
+@import 'components/buttons';
+@import 'components/card';
+@import 'components/checkboxDropdown';
+@import 'components/date_picker';
+@import 'components/filter';
+@import 'components/form';
+@import 'components/modal';
+@import 'components/notification';
+@import 'components/pop_up_message';
+@import 'components/preloader';
+@import 'components/time_picker';
+
+@import 'layout/pagination';
+
+@import 'pages/dashboard';
+@import 'pages/examination';
+@import 'pages/student_info';
+@import 'pages/study_material';
+@import 'pages/users';

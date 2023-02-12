@@ -1,0 +1,94 @@
+.section-login {
+  height: 100vh;
+
+  display: flex;
+
+  background-color: $color-primary--light;
+
+  &--left {
+    width: 50vw;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+      content: '';
+      height: 70%;
+      width: 1px;
+
+      position: absolute;
+      right: 0;
+      top: 15%;
+
+      background-color: $color-primary--dark;
+    }
+
+    .logo img {
+      height: 25rem;
+    }
+  }
+
+  &--right {
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 3.3rem;
+      color: $color-grey--dark;
+      text-align: center;
+    }
+
+    form {
+      width: 38rem;
+
+      .form-label {
+        color: $color-grey--dark !important;
+      }
+
+      .form-control {
+        font-size: $default-font-size;
+        padding: 1.5rem;
+        border: none;
+        border-radius: 0.5rem;
+
+        &::placeholder {
+          font-size: $default-font-size;
+          color: $color-grey;
+        }
+
+        &:active,
+        &:focus,
+        &:visited {
+          border: 1px solid $color-primary !important;
+          box-shadow: rgba(112, 214, 174, 0.2) 0px 8px 24px;
+        }
+      }
+
+      .form-inline {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        a {
+          font-size: 1.2rem;
+          color: $color-grey--dark;
+
+          &:hover {
+            color: $color-grey--dark;
+          }
+        }
+      }
+    }
+  }
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: $color-white;
+}

@@ -1,0 +1,32 @@
+.bootstrap-datetimepicker-widget {
+  top: 0;
+  left: 0;
+  width: 18vw !important;
+  padding: 4px !important;
+  margin-top: 1px !important;
+  z-index: 99999;
+  border-radius: 4px;
+
+  table {
+    width: 16vw !important;
+
+    td span {
+      font-size: $default-font-size !important;
+      font-weight: 400 !important;
+      &:hover {
+        background-color: transparent !important;
+      }
+    }
+  }
+}
+
+.bootstrap-datetimepicker {
+  top: 0;
+  left: 0;
+  width: 18vw !important;
+
+  padding: 4px;
+  margin-top: 1px;
+  z-index: 99999;
+  border-radius: 4px;
+}
